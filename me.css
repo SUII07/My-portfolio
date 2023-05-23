@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    /* background: url(1.jpg) no-repeat; */
+    background-color: #191919;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+main{
+    position: 0;
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgba(17, 4, 4, 0.714); */
+}
+
+nav{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav p{
+    font-size: 55px;
+    font-style: italic;
+    font-weight: bold;
+    float: left;
+    color: rgb(238, 101, 10);
+    cursor: pointer;
+}
+
+nav p span{
+    color: navy;
+}
+
+nav ul li{
+    font-size: 25px;
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(240, 226, 226);
+    font-weight: bold;
+}
+
+.bottom{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 10px;
+
+}
+
+nav ul li a:hover{
+    color: grey;
+}
+
+footer {
+    background-color: whitesmoke;
+    color: black;
+    padding: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 140px; 
+}
+
+.about img {
+    border: 3px solid rgba(237, 214, 214, 0.597); 
+    border-radius: 100px;
+    width: 45%;
+    height: auto;
+    position: relative;
+    bottom: 0;
+    right: 50px;
+    transform: translateX(-20%);
+    margin-top: 50px;
+}
+
+.text{
+    width: 550px;
+}
+
+.about{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text h2{
+    color: #69e0bc;
+    text-decoration: underline;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 35px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.text h5 span{
+    color: rgba(12, 99, 7, 0.674);
+}
+
+.text p{
+    color: rgb(183, 145, 183);
+    letter-spacing: 1.5px;
+    line-height: 35px;
+    font-size: 23px;
+    margin-bottom: 45px;
+}
+
+

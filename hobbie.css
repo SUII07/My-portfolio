@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    /* background: url(1.jpg) no-repeat; */
+    background-color: #191919;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+main{
+    position: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav p{
+    font-size: 55px;
+    font-style: italic;
+    font-weight: bold;
+    float: left;
+    color: rgb(238, 101, 10);
+    cursor: pointer;
+}
+
+nav p span{
+    color: navy;
+}
+
+nav ul li{
+    font-size: 25px;
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:whitesmoke;
+    font-weight: bold;
+}
+
+.bottom{
+    background-color: red;
+    color: yellow;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 10px;
+
+}
+
+nav ul li a:hover{
+    color: grey;
+}
+
+footer {
+    background-color: whitesmoke;
+    color: black;
+    padding: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 140px; 
+}
+
+img{
+    border: 3px solid rgba(237, 214, 214, 0.597); 
+    width: 600px;
+    float: left;
+    border: 3px solid white;
+    border-radius: 100px;
+    margin-right: 70px;
+}
+
+.hobbies{
+    margin: 150px auto;
+    width: 70%;
+}
+
+.hobbies h1{
+    color:#dcde49 ;
+    text-decoration: underline;
+    font-size: 70px;
+    text-align:center;
+    margin-bottom: 70px;
+    cursor: pointer;
+}
+
+.movie{
+   color: white; 
+}
+
+.movie h2{
+   font-size: 42px;
+   text-decoration: underline;
+   color: rgb(160, 174, 243); 
+}
+
+.movie p{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.travel{
+    color: white; 
+ }
+ 
+.travel h2{
+     font-size: 42px;
+     text-decoration:underline ;
+     color: rgb(160, 174, 243);
+ }
+ 
+.travel p{
+     font-size: 16px;
+     margin-bottom: 30px;
+ }
+
+.code{
+    color: white;
+    margin-bottom: 30px; 
+ }
+ 
+.code h2{
+     font-size: 42px;
+     text-decoration: underline;
+     color: rgb(160, 174, 243); 
+ }
+ 
+.code p{
+     font-size: 16px;
+ }
+
+.many{
+    color: white;
+    margin-bottom: 30px; 
+ }
+ 
+.many h2{
+     font-size: 42px;
+     text-decoration: underline;
+     color: rgb(160, 174, 243); 
+ }
+ 
+.many p{
+     font-size: 16px;
+ } 
